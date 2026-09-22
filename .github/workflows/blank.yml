@@ -39,3 +39,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Build Docker image
+        run: docker build -t teste-pipe .
+
